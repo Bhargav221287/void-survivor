@@ -89,14 +89,14 @@ export class SpatialHashGrid<T extends SpatialEntity> {
     }
 
     // Narrow phase: exact circle-circle intersection
-    for (const entity of candidates) {
+    candidates.forEach((entity) => {
       const dx = entity.x - x;
       const dy = entity.y - y;
       const combinedRadius = entity.radius + radius;
       if (dx * dx + dy * dy <= combinedRadius * combinedRadius) {
         results.push(entity);
       }
-    }
+    });
 
     return results;
   }

@@ -1,6 +1,5 @@
 import { describe, it, expect } from "vitest";
 import {
-  DIFFICULTY_CONFIGS,
   getDifficultyConfig,
   scaleEnemyStats,
   calculateScore,

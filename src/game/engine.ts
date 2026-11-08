@@ -7,7 +7,7 @@ import { Projectile } from "./entities/Projectile";
 import { Orb } from "./entities/Orb";
 import { ParticleSystem } from "./entities/Particle";
 import { soundManager } from "./sound";
-import { getRandomUpgrades, applyUpgrade, UPGRADE_CATALOG } from "./upgrades";
+import { getRandomUpgrades, applyUpgrade } from "./upgrades";
 
 export interface Star {
   x: number;
@@ -253,9 +253,7 @@ export class GameEngine {
   }
 
   private spawnBoss(): void {
-    const config = getDifficultyConfig(this.difficulty);
     const arenaW = this.canvas.width / (window.devicePixelRatio || 1);
-    const arenaH = this.canvas.height / (window.devicePixelRatio || 1);
 
     const baseHp = 180 + this.wave * 40;
     const scaled = scaleEnemyStats(baseHp, 70, this.difficulty, this.wave);
