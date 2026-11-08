@@ -2,6 +2,9 @@
 
 > A high-performance, single-player retro-futuristic wave-survival arena shooter built with Next.js (App Router), TypeScript, HTML5 Canvas, and Web Audio API.
 
+🎮 **[Play Live on Vercel: https://void-survivor-eta.vercel.app](https://void-survivor-eta.vercel.app)**
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black.svg?style=for-the-badge&logo=vercel)](https://void-survivor-eta.vercel.app)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-black.svg)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg)](https://tailwindcss.com/)
