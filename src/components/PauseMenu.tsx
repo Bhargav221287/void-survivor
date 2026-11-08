@@ -119,7 +119,22 @@ export const PauseMenu: React.FC<PauseMenuProps> = ({
             </button>
           </div>
         </div>
+
+        {/* Footer Credit */}
+        <div className="text-center text-[11px] text-slate-500 pt-1">
+          Created by{" "}
+          <a
+            href="https://github.com/Bhargav221287"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cyan-400 hover:text-cyan-300 font-bold underline underline-offset-2 transition-colors"
+          >
+            Bhargav
+          </a>{" "}
+          &bull; VOID SURVIVOR
+        </div>
       </div>
     </div>
   );
 };
+

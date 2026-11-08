@@ -370,3 +370,4 @@ export class Enemy implements SpatialEntity {
     ctx.restore();
   }
 }
+

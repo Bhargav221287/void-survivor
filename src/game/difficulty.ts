@@ -131,3 +131,4 @@ export function calculateScore(
   const total = (basePoints + waveBonus) * config.scoreMultiplier;
   return Math.round(total);
 }
+

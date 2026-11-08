@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Fast-paced retro-futuristic single-player top-down wave-survival arena shooter. Pilot your vessel, upgrade tech trees, and climb the global leaderboard.",
   keywords: ["game", "shooter", "survival", "arena", "retro", "nextjs", "canvas", "arcade"],
-  authors: [{ name: "Void Survivor Team" }],
+  authors: [{ name: "Bhargav", url: "https://github.com/Bhargav221287" }],
   openGraph: {
     title: "VOID SURVIVOR",
     description: "Survive infinite hostile swarm waves in deep space. Can you reach the leaderboard?",

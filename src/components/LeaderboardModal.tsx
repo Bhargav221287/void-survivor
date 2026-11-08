@@ -172,3 +172,4 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
     </div>
   );
 };
+

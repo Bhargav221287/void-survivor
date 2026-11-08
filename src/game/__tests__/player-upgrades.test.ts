@@ -78,3 +78,4 @@ describe("Player & Upgrades System", () => {
     expect(player.stats.hp).toBe(0);
   });
 });
+

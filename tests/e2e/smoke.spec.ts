@@ -65,3 +65,4 @@ test.describe("VOID SURVIVOR Smoke Test", () => {
     expect(Array.isArray(data.scores)).toBe(true);
   });
 });
+

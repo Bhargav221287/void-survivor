@@ -151,3 +151,4 @@ export const UpgradeModal: React.FC<UpgradeModalProps> = ({
     </div>
   );
 };
+

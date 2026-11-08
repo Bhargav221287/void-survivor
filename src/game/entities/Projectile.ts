@@ -65,3 +65,4 @@ export class Projectile implements SpatialEntity {
     ctx.restore();
   }
 }
+

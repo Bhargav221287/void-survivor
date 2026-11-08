@@ -194,7 +194,21 @@ export const MainMenu: React.FC<MainMenuProps> = ({
           </label>
         </div>
 
-        <div>VOID SURVIVOR &bull; NEXT.JS &bull; CANVAS &bull; WEB AUDIO</div>
+        <div className="flex items-center gap-2">
+          <span>
+            Created by{" "}
+            <a
+              href="https://github.com/Bhargav221287"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-400 hover:text-cyan-300 font-bold underline underline-offset-2 transition-colors"
+            >
+              Bhargav
+            </a>
+          </span>
+          <span>&bull;</span>
+          <span>VOID SURVIVOR</span>
+        </div>
       </div>
     </div>
   );

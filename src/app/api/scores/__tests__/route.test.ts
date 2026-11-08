@@ -62,3 +62,4 @@ describe("Leaderboard API Route", () => {
     expect(data.entry.score).toBe(15400);
   });
 });
+

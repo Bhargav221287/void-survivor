@@ -156,5 +156,10 @@ npm run build
 
 ---
 
+## 👤 Author
+Created with 🚀 by **[Bhargav (Bhargav221287)](https://github.com/Bhargav221287)**
+
+---
+
 ## 📜 License
 MIT License. Created for the VOID SURVIVOR challenge.

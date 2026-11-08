@@ -78,3 +78,4 @@ export interface GameSettings {
   reducedMotion: boolean;
   colorblindMode: boolean;
 }
+

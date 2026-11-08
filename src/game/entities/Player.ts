@@ -295,3 +295,4 @@ export class Player implements SpatialEntity {
     ctx.restore();
   }
 }
+

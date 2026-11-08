@@ -61,3 +61,4 @@ describe("SpatialHashGrid", () => {
     expect(SpatialHashGrid.distanceSq(10, 20, 10, 25)).toBe(25);
   });
 });
+
